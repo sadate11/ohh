@@ -1,0 +1,23 @@
+:root {
+	--main-color: #000; /* black */
+	--accent-color: #fff; /* white */
+	--text-color: #fffafa; /* snow */
+}
+
+
+
+body {
+    background-color: var(--main-color);
+}
+
+#title, #menu, #header, #text, * {
+	color: var(--accent-color);
+}
+
+#text {
+    color: var(text-color);
+}
+
+p {
+    color: var(text-color);
+}
